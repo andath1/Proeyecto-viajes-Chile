@@ -1,0 +1,67 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+/*navbar*/
+
+.navbar {
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+main {
+    background-color: black;
+    color: white;
+}
+
+.contacto {
+    background-color: white;
+    height: 400px;
+    color: black;
+}
+
+.card-body {
+    background-color: rgb(7, 150, 150);
+    /*   */
+}
+
+.card-img-top {
+    height: 150px;
+    background-size: cover;
+}
+
+.tsuscr {
+    font-size: 30px;
+}
+
+.color-icono {
+    background-color: rgb(7, 150, 150);
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(7, 150, 150);
+    padding: 0%;
+}
+
+.contactos {
+    height: 500px;
+}
+
+.suscrip {
+    width: 1120px;
+    height: 400px;
+    background-color: white;
+    padding-top: 100px;
+    color: black;
+}
+
+.afoot {
+    color: white;
+}
