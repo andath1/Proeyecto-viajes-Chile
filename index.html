@@ -11,6 +11,10 @@
     <!--fond awesone-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
+    <!--google fond-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
     <!--jquery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!--mi estilo-->
@@ -20,9 +24,12 @@
 </head>
 
 <body>
+    <!--inicio navbar-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
+        <!-- nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    </nav> -->
         <div class="container">
-            <a class="navbar-brand" href="#">Viajes Chile</a>
+            <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="logo" class="logo"> Viajes Chile</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -46,7 +53,9 @@
             </div>
         </div>
     </nav>
-    <header m-0 p-0>
+
+    <!--inicio header con un carrusel de tres imagenes-->
+    <header>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -71,84 +80,90 @@
     </header>
 
 
-    <main class="py-2">
+    <!--inicio main con tres secciones: quines somos, destacados, contacto-->
+    <main class="pb-4">
+
+        <!--inicio seccion quienes somos-->
         <section id="Quienes-Somos" class="d-none d-md-block">
-            <h2 class="text-center pt-5">¿Quiénes Somos?</h2>
-            <hr class="my-4">
-            <div class="row mx-5 ">
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4 px-5">
-                    <div class="color-icono">
-                        <i class="fas fa-plane"></i>
+            <div class="container">
+                <h2 class="text-center pt-5">¿Quiénes Somos?</h2>
+                <hr class="my-4">
+                <div class="row ">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 px-3">
+                        <div class="color-icono">
+                            <i class="fas fa-plane"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At enim recusandae magni blanditiis aut quos aspernatur fuga alias hic, quasi libero dolorem neque repellat inventore soluta voluptates quam est perferendis. Maiores animi
+                            tempore placeat nesciunt ipsa assumenda aliquam aspernatur eveniet a tenetur! Minima deserunt perspiciatis modi qui exercitationem aspernatur sapiente voluptas harum? Deleniti, dolorem eius fugit sequi quas mollitia non exercitationem
+                            tempore! Nisi vitae rem ullam odio, eligendi delectus! Unde cumque illo distinctio atque delectus odio neque qui architecto libero voluptas saepe voluptatum eos in a reiciendis tempora quos maiores commodi.</p>
                     </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At enim recusandae magni blanditiis aut quos aspernatur fuga alias hic, quasi libero dolorem neque repellat inventore soluta voluptates quam est perferendis. Maiores animi tempore
-                        placeat nesciunt ipsa assumenda aliquam aspernatur eveniet a tenetur! Minima deserunt perspiciatis modi qui exercitationem aspernatur sapiente voluptas harum? Deleniti, dolorem eius fugit sequi quas mollitia non exercitationem
-                        tempore! Nisi vitae rem ullam odio, eligendi delectus! Unde cumque illo distinctio atque delectus odio neque qui architecto libero voluptas saepe voluptatum eos in a reiciendis tempora quos maiores commodi corrupti asperiores,
-                        quas explicabo labore temporibus? Quos, provident quas.</p>
-                </div>
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4 px-5">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At enim recusandae magni blanditiis aut quos aspernatur fuga alias hic, quasi libero dolorem neque repellat inventore soluta voluptates quam est perferendis. Maiores animi tempore
-                        placeat nesciunt ipsa assumenda aliquam aspernatur eveniet a tenetur! Minima deserunt perspiciatis modi qui exercitationem aspernatur sapiente voluptas harum? Deleniti, dolorem eius fugit sequi quas mollitia non exercitationem
-                        tempore! Nisi vitae rem ullam odio, eligendi delectus! Unde cumque illo distinctio atque delectus odio neque qui architecto libero voluptas saepe voluptatum eos in a reiciendis tempora quos maiores commodi corrupti asperiores,
-                        quas explicabo labore temporibus? Quos, provident quas.</p>
-                    <div class="color-icono">
-                        <i class="fas fa-plane"></i>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 px-3">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At enim recusandae magni blanditiis aut quos aspernatur fuga alias hic, quasi libero dolorem neque repellat inventore soluta voluptates quam est perferendis. Maiores animi
+                            tempore placeat nesciunt ipsa assumenda aliquam aspernatur eveniet a tenetur! Minima deserunt perspiciatis modi qui exercitationem aspernatur sapiente voluptas harum? Deleniti, dolorem eius fugit sequi quas mollitia non exercitationem
+                            tempore! Nisi vitae rem ullam odio, eligendi delectus! Unde cumque illo distinctio atque delectus odio neque qui architecto libero voluptas saepe voluptatum eos.</p>
+                        <div class="color-icono">
+                            <i class="fas fa-exclamation-triangle"></i>
 
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-4 col-lg-4 px-5">
-                    <div class="color-icono">
-                        <i class="fas fa-plane"></i>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 px-3">
+                        <div class="color-icono">
+                            <i class="fas fa-umbrella-beach"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At enim recusandae magni blanditiis aut quos aspernatur fuga alias hic, quasi libero dolorem neque repellat inventore soluta voluptates quam est perferendis. Maiores animi
+                            tempore placeat nesciunt ipsa assumenda aliquam aspernatur eveniet a tenetur! Minima deserunt perspiciatis modi qui exercitationem aspernatur sapiente voluptas harum? Deleniti, dolorem eius fugit sequi quas mollitia non exercitationem
+                            tempore! Nisi vitae rem ullam odio, eligendi delectus! Unde cumque illo distinctio atque delectus odio neque qui architecto libero voluptas saepe voluptatum eos in a reiciendis tempora quos maiores commodi.</p>
                     </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At enim recusandae magni blanditiis aut quos aspernatur fuga alias hic, quasi libero dolorem neque repellat inventore soluta voluptates quam est perferendis. Maiores animi tempore
-                        placeat nesciunt ipsa assumenda aliquam aspernatur eveniet a tenetur! Minima deserunt perspiciatis modi qui exercitationem aspernatur sapiente voluptas harum? Deleniti, dolorem eius fugit sequi quas mollitia non exercitationem
-                        tempore! Nisi vitae rem ullam odio, eligendi delectus! Unde cumque illo distinctio atque delectus odio neque qui architecto libero voluptas saepe voluptatum eos in a reiciendis tempora quos maiores commodi corrupti asperiores,
-                        quas explicabo labore temporibus? Quos, provident quas.</p>
                 </div>
             </div>
         </section>
 
+
+        <!--inicio seccion destacados-->
         <section id="Destacados" class="py-5">
-            <h2 class="text-center pt-5">Destacados</h2>
-            <hr class="mt-4 mb-5">
             <div class="container">
-                <div class="row px-3 ">
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-lx-3 mb-4 ">
-                        <div class="card ">
-                            <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h2 class="text-center pt-5">Destacados</h2>
+                <hr class="mt-4 mb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-lx-3 mb-4 ">
+                            <div class="card ">
+                                <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-lx-3 mb-4">
-                        <div class="card">
-                            <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-lx-3 mb-4">
+                            <div class="card">
+                                <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-lx-3 mb-4">
-                        <div class="card">
-                            <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-lx-3 mb-4">
+                            <div class="card">
+                                <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-lx-3 mb-4">
-                        <div class="card">
-                            <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-lx-3 mb-4">
+                            <div class="card">
+                                <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -156,21 +171,27 @@
             </div>
         </section>
 
-
+        <!--inicio seccion contacto-->
         <section id="Contacto" class="contactos">
-
             <div class="container">
-                <h2 class="text-center">Contacto</h2>
-
+                <h2 class="text-center pb-4">Contacto</h2>
+                <hr class="mx-auto">
             </div>
-
+            <!-- 
             <div class=" suscrip container text-center">
                 <h2 class="mb-5">Hola, gracias por contactarnos</h2>
                 <button type="button" id="enviarCorreo" class="btn btn-head btn-outline-primary me-2" data-toggle="tooltip" data-bs-placement="right" title="Comunicate con Nosotros">
                     Comenzar
                   </button>
-            </div>
+            </div> -->
+            <div data-tf-widget="jQ0otVvz" data-tf-iframe-props="title=My typeform" style="width:100%;height:400px;"></div>
+            <script src="//embed.typeform.com/next/embed.js"></script>
+
+
+
         </section>
+
+
     </main>
 
     <footer class="text-center text-light">
@@ -191,8 +212,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
-
-
     <!--Mi script-->
     <script src="assets/js/main.js "></script>
 </body>

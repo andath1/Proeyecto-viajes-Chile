@@ -1,19 +1,27 @@
+/*general*/
+
 body {
     padding: 0%;
     margin: 0%;
+    font-family: 'Oxygen', sans-serif;
 }
 
 
 /*navbar*/
 
-.navbar {
-    position: fixed;
-    z-index: 1;
+.logo {
+    width: 40px;
 }
 
 .navbar-brand {
     font-size: 30px;
 }
+
+
+/* .navbar {
+    position: fixed;
+    z-index: 1;
+} */
 
 main {
     background-color: black;
@@ -28,8 +36,10 @@ main {
 
 .card-body {
     background-color: rgb(7, 150, 150);
-    /*   */
 }
+
+
+/*   */
 
 .card-img-top {
     height: 150px;
